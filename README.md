@@ -12,7 +12,7 @@
   - Copy connection string from Application insight overview page
   - Add `-javaagent:/shared/app-insight/applicationinsights-agent-3.1.1.jar` to your domain JVM args
   - Create Env `APPLICATIONINSIGHTS_CONNECTION_STRING` in domain level in domain configuration, set its value with Application insight connection string.
-  - 
+
       ```YAML
       env:
       - name: JAVA_OPTIONS
