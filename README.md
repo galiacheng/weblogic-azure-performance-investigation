@@ -11,7 +11,7 @@
   - Upload [applicationinsights-agent-3.1.1.jar](resources/applicationinsights-agent-3.1.1.jar) to file share `app-insight/applicationinsights-agent-3.1.1.jar`
   - Copy connection string from Application insight overview page
   - Add `-javaagent:/shared/app-insight/applicationinsights-agent-3.1.1.jar` to your domain JVM args
-  - Create Env `APPLICATIONINSIGHTS_CONNECTION_STRING` in domain level in domain configuration, set its value with Application insight connection string.
+  - Create Env `APPLICATIONINSIGHTS_CONNECTION_STRING` in domain level in domain configuration, set its value with Application Insight connection string.
 
       ```YAML
       env:
